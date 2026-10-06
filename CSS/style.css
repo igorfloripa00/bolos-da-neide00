@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 223, 245); /* Lilás bem suave de fundo */
+    font-family: 'Inter', sans-serif;
+    color: #3b2e4b; /* Tom escuro de roxo para o texto para dar bom contraste */
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#logo-menu {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+nav p {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav p:hover {
+    color: rgb(138, 79, 170); /* Lilás/roxo mais vivo no hover */
+    cursor: pointer;
+}
+
+nav span {
+    color: rgb(138, 79, 170);
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#texto {
+    width: 70%;
+}
+
+#texto h1 {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.1;
+    color: #3b2e4b;
+    margin-bottom: 30px;
+}
+
+#texto h1 strong {
+    color: rgb(138, 79, 170);
+}
+
+#texto h1::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: rgb(138, 79, 170);
+    margin-bottom: 25px;
+}
+
+#texto p {
+    line-height: 1.6;
+    font-size: 22px;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+}
+
+#banner img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(138, 79, 170);
+}
+
+#funcionalidades h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+#funcionalidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-position: inside;
+    gap: 10px;
+}
+
+#funcionalidades li {
+    width: 32.5%;
+    padding: 10px;
+    background-color: rgba(189, 147, 216, 0.3); /* Lilás translúcido */
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(138, 79, 170);
+    border-width: 2px;
+}
+
+hr {
+    border-top: none;
+    border-width: 1.5px;
+    border-color: rgba(138, 79, 170, 0.4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bolos-proximos h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bolos {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(138, 79, 170);
+    border-radius: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+td {
+    width: 33%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(138, 79, 170);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.imagem {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+td img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.preco {
+    background-color: rgba(189, 147, 216, 0.4);
+}
+
+#ver-mais {
+    text-align: center;
+    background-color: rgb(138, 79, 170);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(110, 60, 138);
+    border-radius: 20px;
+    width: 100%;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#ver-mais p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
